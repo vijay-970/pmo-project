@@ -1,0 +1,80 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "@syncfusion/ej2-react-documenteditor": "^19.2.62",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "material-ui-react": "0.0.1",
+    "mobx": "^6.0.4",
+    "mobx-persist": "^0.4.1",
+    "mobx-react": "^7.0.5",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13",
+    "notistack": "^1.0.2",
+    "rc-progress": "^3.1.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-circle-progress-bar": "^0.1.4",
+    "react-circular-progressbar": "^2.0.3",
+    "react-date-picker": "^8.3.2",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^17.0.1",
+    "react-donut-chart": "^1.1.8",
+    "react-icons": "^4.1.0",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-navbar": "^2.1.0",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.16.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^4.3.1",
+    "reactstrap": "^8.10.0",
+    "sequelize": "^6.6.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"cd Backend && nodemon index.js\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2
+  }
+}
